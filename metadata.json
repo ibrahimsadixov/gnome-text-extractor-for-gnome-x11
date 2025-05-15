@@ -1,0 +1,10 @@
+{
+  "name": "Text Extractor",
+  "description": "Extract text from clipboard images with a single click",
+  "uuid": "textExtractor@ibrahimsadixov.github.io",
+  "shell-version": [
+    "45",
+    "46"
+  ],
+  "version": 1
+}
