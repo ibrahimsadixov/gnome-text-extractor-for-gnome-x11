@@ -50,4 +50,14 @@ If you want to add a new language, simply install it using
 sudo apt install tesseract-ocr-fra (for example, French),
 and then make a small change in the code by modifying the line const command = `tesseract "${imagePath}" stdout -l eng+tur+aze+jpn`; to --> const command = `tesseract "${imagePath}" stdout -l eng+tur+aze+jpn+fra`;
 
+📥 Installation
 
+    Download or clone this extension’s source code.
+
+    Copy the extension folder to your local GNOME Shell extensions directory:
+
+cp -r <extension-folder-name> ~/.local/share/gnome-shell/extensions/
+
+    Reload GNOME Shell (press Alt + F2, type r, and press Enter) or log out and back in.
+
+    Enable the extension using GNOME Extensions app or gnome-extensions CLI.
